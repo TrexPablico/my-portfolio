@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  background-color: #dfe0e1;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #d3d3d3;
+  z-index: 1;
+}
+
+.topnav a {
+  float: left;
+  color: #a5a5a5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.topnav .main1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #709cb1;
+}
+.button1 {
+  background-color: #709cb1;
+  border: none;
+  border-radius: 12px;
+  color: rgb(59, 59, 59);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  margin-top: 0.3%;
+}
+h1 {
+  color: #a5a5a5;
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 200px;
+}
+p {
+  color: #3b3b3b;
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 10px;
+  width: 400px;
+  margin-left: 750px;
+}
+.p1 {
+  color: #3b3b3b;
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 10px;
+  width: 400px;
+  margin-left: 750px;
+}
+.button2 {
+  background-color: #8c9396;
+  border: none;
+  border-radius: 12px;
+  color: rgb(230, 230, 230);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  margin-top: 0.3%;
+}
+.button2:hover {
+  background-color: #93c3d6;
+  color: black;
+}
+.button1:hover {
+  background-color: #9ea7aa;
+  color: black;
+}
+section#form {
+  text-align: center;
+  font-family: Montserrat;
+  margin-top: 200px;
+}
+.submit1 {
+  background-color: #709cb1;
+  border: none;
+  border-radius: 12px;
+  color: rgb(59, 59, 59);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  margin-top: 0.3%;
+}
+.portpic1 {
+  opacity: 0.5;
+}
+li {
+  color: #696969;
+  text-align: left;
+  font-family: Montserrat;
+  margin-left: 250px;
+}
+b {
+  color: #696969;
+  text-align: center;
+  font-family: Montserrat;
+  margin-left: 350px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  margin-left: 10rem;
+  width: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.topnav {
+  position: sticky;
+  top: 0;
+}
+.grow img {
+  transition: 1s ease;
+}
+
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+.social {
+  position: absolute;
+  left: 850px;
+  top: 500px;
+  opacity: 0.5;
+}
+.social2 {
+  position: absolute;
+  left: 920px;
+  top: 490px;
+  opacity: 0.5;
+}
+.social3 {
+  position: absolute;
+  left: 1010px;
+  top: 503px;
+  opacity: 0.5;
+}
+.social img {
+  transition: 1s ease;
+}
+
+.social img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+.social2 img {
+  transition: 1s ease;
+}
+
+.social2 img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+.social3 img {
+  transition: 1s ease;
+}
+
+.social3 img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+footer {
+  margin-left: 5px;
+  position: absolute;
+  bottom: -10vh;
+}
