@@ -205,3 +205,47 @@ footer {
   position: absolute;
   bottom: -10vh;
 }
+main {
+  justify-content: center;
+  position: absolute;
+  bottom: 500px;
+  left: 900px;
+}
+.formz2 {
+  height: 100px;
+  width: 350px;
+}
+.formz {
+  position: absolute;
+  left: 1px;
+}
+div.form {
+  position: absolute;
+  right: -195px;
+  top: 5px;
+}
+.name1 {
+  margin-bottom: 5px;
+}
+.button3 {
+  background-color: #8c9396;
+  border: none;
+  border-radius: 12px;
+  color: rgb(230, 230, 230);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  margin-top: 0.3%;
+}
+.button3:hover {
+  background-color: #93c3d6;
+  color: black;
+}
+h3 {
+  color: #a5a5a5;
+  font-family: Montserrat;
+}
